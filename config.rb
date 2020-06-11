@@ -1,5 +1,10 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+
+# Pretty URLs
+# https://middlemanapp.com/advanced/pretty-urls/
+activate :directory_indexes
+
 activate :livereload, :host => "127.0.0.1",
          :livereload_css_target => nil
 

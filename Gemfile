@@ -17,6 +17,9 @@ gem 'jquery-middleman', require: false
 # Server
 gem 'puma', require: 'puma/rack_default'
 
+# Helpers
+gem 'warning'
+
 # DEVELOPMENT
 group :development do
     gem 'listen', '~> 3.0'

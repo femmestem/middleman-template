@@ -1,3 +1,10 @@
+require 'warning'
+
+# Suppress warnings about obsolete/deprecated methods used by dependencies
+Gem.path.each do |path|
+  Warning.ignore(//, path)
+end
+
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 

@@ -123,6 +123,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    warning (1.1.0)
 
 PLATFORMS
   ruby
@@ -139,6 +140,10 @@ DEPENDENCIES
   middleman-pry
   puma
   sassc (~> 2.4)
+  warning
+
+RUBY VERSION
+   ruby 2.7.1p83
 
 BUNDLED WITH
    2.1.4

@@ -12,6 +12,8 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 3 versions"
 end
 
+activate :aria_current
+
 set :haml, { :format => :html5 }
 
 # Layouts

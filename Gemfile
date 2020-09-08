@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Engine
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
+gem 'middleman-aria_current'
 
 # Templating
 gem 'haml'
